@@ -2,7 +2,7 @@ name: Python checks
 on: [push, pull_request]
 
 jobs:
-    build:
+  build:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v3
